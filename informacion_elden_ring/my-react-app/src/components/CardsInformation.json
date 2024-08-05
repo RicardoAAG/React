@@ -1,0 +1,34 @@
+[
+    {
+        "key": 1,
+        "imageName": "limgrave.webp",
+        "title": "Limgrave",
+        "text": "A temperate land of green plains and golden trees, with windswept hills to the north and a dense, mist-shrouded woodland to the east.",
+        "label": "Region",
+        "path": "/e-region"
+    },
+    {
+        "key": 2,
+        "imageName": "caelid.webp",
+        "title": "Caelid",
+        "text": "A wasteland on the south-eastern tip of the Lands Between, plagued by Scarlet Rot and inhabited by all manner of malformed creatures.",
+        "label": "Region",
+        "path": "/e-region"
+    },
+    {
+        "key": 3,
+        "imageName": "weeping_peninsula.webp",
+        "title": "Weeping Peninsula",
+        "text": "The peninsula derives its name from its unceasing rainfall, giving the impression of a land in constant lament",
+        "label": "Region",
+        "path": "/e-region"
+    },
+    {
+        "key": 4,
+        "imageName": "liurnia.webp",
+        "title": "Liurnia",
+        "text": "Characterised by its vast forests, sheer cliffs, and ever-present fog, the majority of the region is sinking into a lake.",
+        "label": "Region",
+        "path": "/e-region"
+    }
+]

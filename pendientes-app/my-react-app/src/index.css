@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(0, 0%, 15%);
+}
+
+.lista-pendientes {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+button {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.boton-agregar {
+    background-color: rgb(47, 128, 0);
+}
+
+.boton-agregar:hover {
+    background-color: hsl(120, 100%, 15%);
+}
+
+.boton-borrar {
+    background-color: rgb(255, 81, 0);
+}
+
+.boton-borrar:hover {
+    background-color: hsl(0, 100%, 40%);
+}
+
+.boton-mover {
+    background-color: hsl(209, 100%, 50%);
+}
+
+.boton-mover:hover {
+    background-color: hsl(240, 100%, 40%);
+}
+
+input[type="text"] {
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid rgb(129, 129, 129);
+    border-radius: 5px;
+    color: hsla(0, 0%, 0%, 0.596);
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    font-size: 2rem;
+    padding: 15px;
+    font-weight: bold;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    border: 3px solid hsl(208, 100%, 90%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    flex: 1;
+}
+
+.boton-borrar,
+.boton-mover {
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}

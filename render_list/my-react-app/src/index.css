@@ -1,0 +1,34 @@
+.Aliados{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(36, 100%, 59%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(216, 100%, 50%);
+}
+
+.Enemigos{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 0%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(22, 98%, 45%);
+}
+
+.lista-items{
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+}
+
+.lista-items li:hover{
+  color: hsl(0, 0%, 50%);
+  cursor: pointer;
+}

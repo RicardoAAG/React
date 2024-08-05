@@ -1,0 +1,79 @@
+.card-create-store {
+    background-color: white;
+    height: 310px;
+    width: 350px;
+
+    border: 2px solid #B0E0E6;
+    border-radius: 15px;
+    padding: 0px 15px;
+    box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #4682B4;
+    color: #E0FFFF;
+}
+
+.card-create-store-first {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-create-store-first h3 {
+    position: sticky;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    line-height: 0.2;
+}
+
+.card-create-store-second {
+    position: flex;
+    text-align: left;
+}
+
+.card-create-store-second p {
+    font-size: 1rem;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card-create-store-second input {
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #4d5866;
+    width: 96%;
+    padding: 5px;
+}
+
+.card-create-store-third {
+    position: flex;
+    text-align: left;
+}
+
+.card-create-store-third p {
+    font-size: 1rem;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card-create-store-third input {
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #4d5866;
+    width: 96%;
+    padding: 5px;
+}
+
+.card-create-store-submit {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-create-store-submit button {
+    font-size: 1.3rem;
+    margin-top: 30px;
+}

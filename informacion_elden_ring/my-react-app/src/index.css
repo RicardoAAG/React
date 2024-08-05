@@ -1,0 +1,17 @@
+.logo {
+  max-width: 75px;
+  margin: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(250, 241, 195, 0.30) 0%, rgba(238, 130, 238, 0) 60%);
+}
+
+.social-icons-logo {
+  max-width: 30px;
+  margin: 0;
+  filter: invert(1);
+}
+
+body {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+}

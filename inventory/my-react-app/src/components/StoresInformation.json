@@ -1,0 +1,12 @@
+[
+    {
+        "key": "1",
+        "name": "Farmacias Guadalajara",
+        "description": "Tienda de autoservicio que combina los elemento de una tienda tradicional y una farmacia"
+    },
+    {
+        "key": "2",
+        "name": "Mecanico",
+        "description": "Arregla carros"
+    }
+]

@@ -1,0 +1,27 @@
+.contenedor-contador{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contador-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.contador-boton{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(29, 100%, 50%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contador-boton:hover{
+  background-color: hsl(29, 100%, 30%);
+}

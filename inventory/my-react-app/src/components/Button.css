@@ -1,0 +1,49 @@
+.small {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.medium {
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* .big {
+}*/
+
+.fill {
+    background: #1E3A5F;
+    border-radius: 10px;
+    border: 1px solid #B0E0E6;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.transparent {
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid hsl(184, 12%, 23%);
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+    color: black;
+}
+
+.fill:hover {
+    box-shadow: 0 8px 16px 0 rgba(126, 126, 126, 0.2);
+    background: #4682B4;
+    cursor: pointer;
+    color: #E0FFFF;
+    border: 1px solid #B0E0E6;
+}
+
+.transparent:hover {
+    box-shadow: 0 8px 16px 0 rgba(126, 126, 126, 0.2);
+    background: #4682B4;
+    cursor: pointer;
+    color: #E0FFFF;
+    border: 1px solid #B0E0E6;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

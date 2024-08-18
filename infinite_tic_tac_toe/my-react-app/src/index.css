@@ -43,6 +43,7 @@
   --margin-large: calc(1.5rem + 1.5vw);
 }
 
+
 body {
   margin: 0;
   padding: 0;
@@ -52,4 +53,25 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1000px) {
+  :root{
+    --font-size-small: calc(0.8rem + 0.1vw);
+    /* Texto pequeño */
+    --font-size-medium: calc(1rem + 0.25vw);
+    /* Texto mediano */
+    --font-size-large: calc(1.5rem + .5vw);
+    /* Texto grande */
+    --font-size-xlarge: calc(2rem + .75vw);
+    /* Texto extra grande */
+  
+    /* Tamaños de margen y padding dinámicos */
+    --padding-small: calc(0.25rem + 0.5vw);
+    --padding-medium: calc(.5rem + 1vw);
+    --padding-large: calc(.75rem + 1.5vw);
+    --margin-small: calc(0.25rem + 0.5vw);
+    --margin-medium: calc(.5rem + 1vw);
+    --margin-large: calc(.75rem + 1.5vw);
+  }
 }

@@ -67,3 +67,9 @@
     border: 2px solid var(--color-win);
     box-shadow: 0 0px 10px 1px gold;
 }
+
+@media only screen and (max-width: 500px){
+    .playerinfo-container {
+        width: 70vw;
+    }
+}

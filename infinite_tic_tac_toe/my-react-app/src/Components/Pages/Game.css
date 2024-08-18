@@ -6,11 +6,19 @@
 
 .tic-tac-toe {
     position: relative;
+    grid-area: game;
 }
 
-.game-player {
+.game-player-one {
     margin-left: var(--margin-medium);
     margin-right: var(--margin-medium);
+    grid-area: player1;
+}
+
+.game-player-two {
+    margin-left: var(--margin-medium);
+    margin-right: var(--margin-medium);
+    grid-area: player2;
 }
 
 .reset-button {
@@ -35,4 +43,23 @@
 .reset-button:hover {
     background-color: var(--color-hover);
     color: black;
+}
+
+@media only screen and (max-width: 500px){
+    .reset-button{
+        font-size: var(--font-size-small);
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .game-page {
+        display: grid;
+        grid-template-areas:
+        'game' 
+        'player1'
+        'player2';
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 20px;
+    }
 }

@@ -8,7 +8,9 @@ function TicTacToe(props) {
     const [test, setTest] = useState(['', '', '', '', '', '', '', '', ''])
     const start = [0, 1, 2, 3, 4, 5, 6, 7, 8]
     const oldestMove = useRef([[], []])
-    const turn = useRef(true)
+    const playerState = useRef('`s turn')
+    const turn = useRef(player1.victories === player2.victories ?
+        true : player1.victories < player2.victories ? true : false)
     const limitMovement = useRef([0, 0])
 
 
@@ -16,10 +18,14 @@ function TicTacToe(props) {
         if (checkVictory(player1)) {
             console.log(`${player1.nameC} Ganador`)
             const victory = player1.victories + 1
+            turn.current = !turn.current
+            playerState.current = ' WINNER'
             setPlayer1(prevState => ({ ...prevState, victories: victory }))
         } else if (checkVictory(player2)) {
             console.log(`${player2.nameC} Ganador`)
             const victory = player2.victories + 1
+            turn.current = !turn.current
+            playerState.current = ' WINNER'
             setPlayer2(prevState => ({ ...prevState, victories: victory }))
         }
 
@@ -107,7 +113,7 @@ function TicTacToe(props) {
                     <p className="turn">{turn.current
                         ? player1.nameC
                         : (props.bot ? 'Bot' : player2.nameC)
-                    }'s turn!</p>
+                    }{playerState.current}</p>
                     <p className="turn click" onClick={() => { handleCellClick(null, ""); prepareOld(); eraseOld() }}>{turn.current
                         ? null
                         : (props.bot ? 'CLICK ME' : null)

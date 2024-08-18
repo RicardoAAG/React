@@ -32,16 +32,16 @@ function Game() {
     return (
         <>
             <div className="game-page">
-                <section className="game-player">
+                <section className="game-player-one">
                     <PlayerInfo number='one' />
                 </section>
                 <section className="tic-tac-toe">
-                    <button className="reset-button" onClick={resetGame} ref={resetRef} style={{ display: 'none' }}>Volver a Jugar</button>
+                    <button className="reset-button" onClick={resetGame} ref={resetRef} style={{ display: 'none' }}>Play Again</button>
                     <div className="tic-tac-toe-container" ref={ticTacToeContainerRef}>
                         <TicTacToe key={seed} bot={isBot} />
                     </div>
                 </section>
-                <section className="game-player">
+                <section className="game-player-two">
                     <PlayerInfo number='two' />
                 </section>
             </div>

@@ -23,7 +23,7 @@
 .one-change {
     background-color: var(--color-player1);
     border: 5px solid var(--color-border);
-    width: calc(100vw - 2*var(--padding-large));
+    width: calc(98vw - 2*var(--padding-large));
     border-radius: 10px;
     box-shadow: 0px 0 5px 1px black;
     color: #2c2c2c;
@@ -55,6 +55,7 @@
     max-width: 250px;
     word-wrap: break-word;
     word-break: break-all;
+    min-width: 80%;
 }
 
 .playerconfig-line {
@@ -84,4 +85,23 @@
     padding: 5px 10px 5px 10px;
     width: 90%;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 500px){
+    .one{
+        background-color: var(--color-player1);
+        border: 5px solid var(--color-border);
+        width: calc(98vw - 2*var(--padding-large));
+        border-radius: 10px;
+        box-shadow: 0px 0 5px 1px black;
+        color: #2c2c2c;
+    }
+    .two{
+        background-color: var(--color-player2);
+        border: 5px solid var(--color-border);
+        width: calc(98vw - 2*var(--padding-large));
+        border-radius: 10px;
+        box-shadow: 0px 0 5px 1px black;
+        color: white;
+    }
 }

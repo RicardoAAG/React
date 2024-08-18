@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from "./Components/Pages/Home"
 import Game from "./Components/Pages/Game"
 import InfoProvider from "./Components/InfoProvider"
+import Footer from "./Components/Footer"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" exact element={<Home />} />
             <Route path="/game" exact element={<Game />} />
           </Routes>
+          <Footer />
         </Router>
       </InfoProvider>
     </>

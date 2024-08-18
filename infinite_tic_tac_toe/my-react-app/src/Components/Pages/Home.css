@@ -10,7 +10,6 @@
 
 .home-button-container {
     text-align: center;
-    margin-top: var(--margin-small);
 }
 
 .home-button {
@@ -31,4 +30,15 @@
 .home-button:hover {
     background-color: var(--color-hover);
     color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    .home-input-container {
+        grid-template-columns: 1fr; 
+    }
+    
+    .home-button {
+        font-size: var(--font-size-small); 
+        padding: var(--font-size-small); 
+    }
 }

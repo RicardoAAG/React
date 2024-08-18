@@ -38,7 +38,7 @@ function PlayerConfig(props) {
                             <input className='playerconfig-input' type="text" value={name} onChange={handleNameChange} maxLength={15} />
                         </li>
                         <li className="playerconfig-options-item">
-                            <p className="playerconfig-type">Symbol:</p>
+                            <p className="playerconfig-type">Token:</p>
                             <input className='playerconfig-input' type="text" value={symbol} onChange={handleSymbolChange} maxLength={1} />
                         </li>
                     </ul>
